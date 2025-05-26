@@ -1,0 +1,237 @@
+body {
+    background: #27445D;
+    margin: 0px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*encabezado, titulo e hipervinculo*/
+
+.title_proyect-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+.title-steam {
+    display: flex;
+    align-items: center;
+}
+
+.energy-drink {
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 500%;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 4.5rem;
+    margin-left: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*hipervinculos word*/
+
+.haeder-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    position: relative;
+    display: inline-block;
+    color: aliceblue; /* Puedes cambiar el color */
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.links::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.links:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*busqueda de antecedentes*/
+
+.continer-busque {
+    background-color: aliceblue;
+    padding: 100px;
+}
+
+.busqueda-de-antece {
+    background-color: #27445D;
+    color: aliceblue;
+    padding: 50px;
+    border: solid 7px #497D74;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.busqueda-de-antece div {
+    margin-left: 50px;
+}
+
+.title-principal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4.5rem;
+    margin-top: 50px;
+}
+
+.p-principal {
+    font-size: 25px;
+    max-width: 1000px;
+    margin-bottom: 50px;
+}
+
+.mano-afectada {
+    border-radius: 50px;
+    width: 500px;
+}
+
+.text-continue {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 200px 100px;
+}
+
+/*ejemplos de las fichas bibliograficas*/
+
+.ejemplos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: #27445D;
+    padding: 50px;
+    margin: 200px;
+    border-radius: 100px;
+}
+
+/*riesgo de sufrir ataque cardiaco por la presion arterial*/
+
+.img-first {
+    width: 300px;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.riesgo {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.text-riesgo {
+    max-width: 600px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/*salud mental*/
+
+.ejemplos-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #27445D;
+    text-align: right;
+    padding: 50px;
+    margin: 200px;
+    border-radius: 100px;
+}
+
+.mental {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+
+.text-mental {
+    max-width: 600px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+.img-two {
+    width: 300px;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.text-info {
+    max-width: 600px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+/*texto final*/
+
+.text-final {
+    background-color: #27445D;
+    color: aliceblue;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 200px 100px;
+}
+
+/*fuentes de información*/
+
+.fuents-info {
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fuent {
+    position: relative;
+    display: inline-block;
+    color: aliceblue; /* Puedes cambiar el color */
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.fuent::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.fuent:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}

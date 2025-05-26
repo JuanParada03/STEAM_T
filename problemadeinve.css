@@ -1,0 +1,264 @@
+body {
+    background: #27445D;
+    margin: 0px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*encabezado, titulo e hipervinculo*/
+
+.title_proyect-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+.title-steam {
+    display: flex;
+    align-items: center;
+}
+
+.energy-drink {
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 500%;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 4.5rem;
+    margin-left: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*hipervinculos word*/
+
+.haeder-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    position: relative;
+    display: inline-block;
+    color: aliceblue; /* Puedes cambiar el color */
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.links::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.links:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*introduccion de problema de investigacion*/
+
+.problema_de_investigacion {
+    background-color: aliceblue;
+    color: #27445D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.title-probl {
+    font-size: 4.5rem;
+    margin-left: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.probl-text {
+    margin-left: 100px;
+}
+
+.introduccion-probl {
+    font-size: 25px;
+    max-width: 850px;
+}
+
+.img-probl {
+    width: 700px;
+    margin-right: 100px;
+}
+
+/*importancia del estudio*/
+
+.import-study {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.import-img {
+    width: 700px;
+    margin: 100px;
+}
+
+.text-import {
+    margin-right: 100px;
+}
+
+.title-import {
+    font-size: 4.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p-import {
+    font-size: 25px;
+    max-width: 1000px;
+}
+
+/*Preguntas y Dudas*/
+
+.question-dudes {
+    background-color: aliceblue;
+    color: #27445D;
+    text-align: center;
+}
+
+.title-questions {
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 100px;
+}
+
+.questions-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions-bottom li {
+    margin: 40px 40px 100px 40px ;
+}
+
+li {
+    max-width: 300px;
+    font-size: 25px;
+    background-color: #27445D;
+    color: aliceblue;
+    padding: 50px;
+    margin: 0px 40px;
+    border: solid 4px #497D74;
+    border-radius: 40px;
+}
+
+/*necesidades de soluciones*/
+
+.solutions {
+    background-color: aliceblue;
+    color: #27445D;
+}
+
+.solutions-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5rem;
+    background-color: #27445D;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.solutions_text-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.p-solutions {
+    max-width: 700px;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 90px;
+    background-color: #27445D;
+    color: aliceblue;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.img-solutions {
+    width: 500px;
+}
+
+/*concluciones*/
+
+.conclution {
+    color: aliceblue;
+    text-align: center;
+}
+
+.conclution-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5rem;
+}
+
+.conclution-p {
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: aliceblue;
+    margin-bottom: 0px;
+    color: #27445D;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 40px;
+}
+
+.inice {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #27445D; /* Puedes cambiar el color */
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.inice::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.inice:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}

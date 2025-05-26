@@ -1,0 +1,294 @@
+body {
+    background: #27445D;
+    margin: 0px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*encabezado, titulo e hipervinculo*/
+
+.title_proyect-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+.title-steam {
+    display: flex;
+    align-items: center;
+}
+
+.energy-drink {
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 500%;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 4.5rem;
+    margin-left: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*hipervinculos word*/
+
+.haeder-links {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    position: relative;
+    display: inline-block;
+    color: aliceblue; /* Puedes cambiar el color */
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+.links::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.links:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/*descripcion del encabezado*/
+
+.descrip_proyect-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.info {
+    margin-left: 100px;
+}
+
+.info_title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 7rem;
+    color: #27445D;
+    margin: 0px;
+}
+
+.descrip_p {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color:#27445D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info_link-fichs {
+    position: relative;
+    display: inline-block;
+    color: #27445D; /* Puedes cambiar el color */
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.info_link-fichs::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    font-size: 21px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1s ease;
+}
+
+.info_link-fichs:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    font-size: 21px;
+}
+
+.descrip_img {
+    width: 600px;
+    margin-right: 100px;
+}
+
+/*titulo de los miembros del equipo*/
+
+.title-team {
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 20px;
+    margin: 70px 500px;
+    padding: 20px 0;
+    max-width: 1000px;
+}
+
+/*miembros del equipo*/
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+    /*anchor de fotos*/
+
+.phto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+    /*centrar y agrandar nombres*/
+
+.name {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/*fondo de los miembros (phto)*/
+
+.user {
+    text-align: center;
+    margin: 0px 40px;
+}
+
+/*linea y tema de investigacion*/
+
+.line-and-teme {
+    background-color: aliceblue;
+}
+
+.title_line-teme {
+    padding:100px 60px 60px 60px;
+    font-size: 5rem;
+    color: #27445D;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 5px #27445D;
+    border-bottom: none;
+    margin: 0px;
+}
+
+/*tema de investigacion*/
+
+.teme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #27445D;
+    border: solid 5px #27445D;
+    border-top: none;
+    border-bottom: none;
+    padding: 50px 60px 30px 60px;
+}
+
+.teme-subtitle {
+    font-size: 9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.teme-p {
+    font-size: 21px;
+}
+
+.img_teme {
+    width: 400px;
+    margin-left: 100px;
+}
+
+/*linea de investigsacion*/
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #27445D;
+    border: solid 5px #27445D;
+    border-top: none;
+    padding: 0px 60px 60px 60px;
+}
+
+.line-subtitle {
+    font-size: 9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.line-p {
+    font-size: 23px;
+}
+
+.img_line {
+    width: 400px;
+    margin-right: 100px;
+}
+
+/*pregunta de investigación*/
+
+.title-question {
+    text-align: center;
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+.question-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-text {
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: right;
+}
+
+/*pie de pagina*/
+
+.footer {
+    background-color: aliceblue;
+    margin-bottom: 0px;
+    color: #27445D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 40px;
+}
+
+.inice {
+    color: #27445D;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.inice:hover {
+    text-decoration:underline;
+    transition: 2s;
+}
